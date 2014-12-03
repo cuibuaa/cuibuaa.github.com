@@ -52,12 +52,12 @@
 	
 	span.ntext
 	{
-		font:0.5em  arial,sans-serif;
+		font:0.7em  arial,sans-serif;
 	}
 	
 	span.etext
 	{
-		font:bold italic 0.5em arial,sans-serif;
+		font:bold italic 0.7em arial,sans-serif;
 	}
 	
 	header
@@ -338,7 +338,7 @@
 				position: absolute;
 				left: 0;
 				top: 60%;
-				font:italic bold 0.4em arial,sans-serif;
+				font:italic bold 0.6em arial,sans-serif;
 				letter-spacing: -0.015em;
 				margin-top: 0;
 			}
