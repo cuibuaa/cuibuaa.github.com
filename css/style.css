@@ -37,6 +37,11 @@ a{text-decoration: none;}
 		-ms-box-sizing: border-box;
 		box-sizing: border-box;
 	}
+	
+	.tips img{
+		width:100%; 
+		height:100%;
+	}
 
 	body
 	{
