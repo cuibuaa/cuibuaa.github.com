@@ -136,6 +136,7 @@
 	
 	#nav
 	{
+		margin-top: 2.5em;
 		text-align: center;
 		height: 4.25em;
 		cursor: default;
@@ -183,6 +184,7 @@
 				/* Labels not wide enough? Increase its width below and set margin-left to ((width / 2) * -1) */
 				width: 5.5em;
 				margin-left: -2.75em;
+				border-radius: 25px;
 			}
 			
 				#nav a span:after
