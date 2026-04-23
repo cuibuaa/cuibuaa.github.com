@@ -240,30 +240,36 @@
 		width: 45em;
 	}
 	
-	/* Me */
-	
-		#me
-		{
-			padding: 0;
-			height: 20em;
-		}
+		/* Me */
 		
-			#me .pic
+			#me
 			{
-				display: block;
-				position: absolute;
-				right: -1px;
-				top: 0;
-				height: 100%;
-				text-decoration: none;
+				padding: 0;
+				position: relative;
+				min-height: 20em;
+				height: auto;
 			}
 			
-				#me .pic img
+				#me .pic
 				{
-					position: relative;
 					display: block;
+					position: absolute;
+					right: -1px;
+					top: 0;
+					width: 18em;
 					height: 100%;
+					min-height: 20em;
+					text-decoration: none;
 				}
+				
+					#me .pic img
+					{
+						position: relative;
+						display: block;
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
 			
 				#me .pic .arrow
 				{
@@ -305,45 +311,42 @@
 						padding-right: 0.25em;
 					}
 			
-			#me header
-			{
-				position: absolute;
-				left: 0;
-				top: 0;
-				width: 100%;
-				height: 100%;
-				margin-left: 2.5em;
-			}
-			
-			#me h1
-			{
-				position: absolute;
-				left: 0;
-				top: 20%;
-				font-size: 1.5em;
-				margin: 0;
-			}
-			
-			#me .occupation
-			{
-				position: absolute;
-				left: 0;
-				top: 30%;
-				font-size: 1em;
-				color: #000;
-				letter-spacing: -0.015em;
-				margin-top: 0;
-			}
-			
-			#me .welcomewords
-			{
-				position: absolute;
-				left: 0;
-				top: 60%;
-				font:italic bold 0.6em arial,sans-serif;
-				letter-spacing: -0.015em;
-				margin-top: 0;
-			}
+				#me header
+				{
+					position: relative;
+					width: 100%;
+					height: auto;
+					margin: 0;
+					padding: 2.5em 20.5em 2.5em 2.5em;
+				}
+				
+				#me h1
+				{
+					position: static;
+					font-size: 1.5em;
+					margin: 0;
+				}
+				
+				#me .occupation
+				{
+					display: block;
+					position: static;
+					font-size: 1em;
+					line-height: 1.35em;
+					color: #000;
+					letter-spacing: -0.015em;
+					margin-top: 0.75em;
+				}
+				
+				#me .welcomewords
+				{
+					display: block;
+					position: static;
+					font: italic bold 0.66em arial, sans-serif;
+					line-height: 1.55em;
+					letter-spacing: -0.005em;
+					margin-top: 1.1em;
+				}
 
 /*********************************************************************************/
 /* Footer                                                                        */
